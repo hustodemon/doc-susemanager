@@ -4,4 +4,11 @@
 //*** Level 3 section
 // **** Level 4 section
 * Administration Guide
-** xref:intro.adoc#admin-manual-introduction[Introduction]
+** xref:admin-intro.adoc#admin-manual-introduction[Introduction]
+** xref:virtual-hosts.adoc#virtual-hosts[Virtual Hosts]
+** xref:autoyast-example.adoc#autoyast-example[AutoYaST Example]
+** xref:image-management.adoc#image-management[Image Management]
+** xref:kubernetes.adoc#kubernetes[Kubernetes]
+
+// I'm just dumping content in here for now, will reorganise once it's all in.
+// Please don't panic! --LKB 2019-02-27
