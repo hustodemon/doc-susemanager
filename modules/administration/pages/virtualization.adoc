@@ -323,7 +323,7 @@ Apart from being able to serve as a host for {kvm} or {xen} guests, which are ma
 ==== {vmhost} setup on Salt clients
 
 
-If the {vmhost} is registered as a Salt minion, a final configuration step is needed in order to gather all the guest VMs defined on the {vmhost}:
+If the {vmhost} is registered as a Salt minion, a final configuration step is needed to gather all the guest VMs defined on the {vmhost}:
 
 
 . From the menu:System Details[Properties] page, enable the [guimenu]``Add-on System Type`` ``Virtualization Host`` and confirm with btn:[Update Properties].
@@ -483,6 +483,6 @@ btn:[Confirm] the action on the displayed popup dialog.
 [[sec.virtualization.vmguest-manage.gui]]
 === Displaying {vmguest} graphical console
 
-In order to be able to display a {vmguest} VNC or Spice graphical console, the virtual host corresponding port needs to be reachable by the server.
+To display a {vmguest} VNC or Spice graphical console, the virtual host corresponding port needs to be reachable by the server.
 The {vmguest} graphics settings also have to listen on at least the virtual host address.
 This is the default for any {vmguest} created using the web interface.
